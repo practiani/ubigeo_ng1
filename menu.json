@@ -1,0 +1,27 @@
+{
+
+    "menu": [
+        {
+            "title": "Dashboard",
+            "state": "ubigeo.dashboard",
+            "type": "link"
+        },
+
+
+        {
+            "title": "Ubigeo",
+            "type": "toggle",
+            "state": "ubigeo.ubigeo",
+            "menu_items": [{
+                "title": "Ubigeos",
+                "state": "ubigeo.ubigeo.ubigeos",
+                "type": "link"
+            }, {
+                "title": "Paises",
+                "state": "ubigeo.ubigeo.paises",
+                "type": "link"
+            }]
+        }
+    ]
+
+}

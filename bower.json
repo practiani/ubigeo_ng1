@@ -1,0 +1,29 @@
+{
+  "name": "web",
+  "homepage": "index.html",
+  "authors": [
+    "asullom"
+  ],
+  "description": "web app",
+  "main": "index.html",
+  "keywords": [
+    "angular",
+    "material"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "angular-resource": "^1.5.8"
+  },
+  "devDependencies": {
+  }
+}

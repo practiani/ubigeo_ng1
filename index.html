@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="catalogo">
+
+<head>
+    <meta charset="UTF-8">
+    <title ng-bind="$state.current.data.section + ($state.current.data.section === Null ? '' : ' > ') +
+        $state.current.data.page">
+    </title>
+    <link rel="icon" href="favicon_catalogo1.ico" type="image/x-icon" />
+    <meta name="viewport" content="initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+
+<body>
+    <a ui-sref="home">Home</a>
+    <a ui-sref="ubigeos">ubigeo</a>
+    <div class="app" ui-view ng-controller="MainCtrl"></div>
+    <!-- 3rd-Party packages -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="dist/catalogo.min.js"></script>
+    <!-- solo tiene que estar corriendo la tarea por default de gulp
+    -->
+</body>
+
+</html>
